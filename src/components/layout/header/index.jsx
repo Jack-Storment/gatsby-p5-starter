@@ -33,7 +33,6 @@ function Header() {
       </label>
       <ul className="nav-links">
         <Navlink to="/" onClick={() => setChecked(!checked)}>Home</Navlink>
-        <Navlink to="/gallery" onClick={() => setChecked(!checked)}>Gallery</Navlink>
         <Navlink to="/about" onClick={() => setChecked(!checked)}>Resume</Navlink>
         <Navlink to="/contact" onClick={() => setChecked(!checked)}>Contact</Navlink>
       </ul>
